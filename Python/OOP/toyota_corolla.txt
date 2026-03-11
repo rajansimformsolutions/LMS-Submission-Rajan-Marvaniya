@@ -1,0 +1,4 @@
+Brand: toyota
+Model: corolla
+Year: 2026
+Price: 2500000

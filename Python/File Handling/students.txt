@@ -1,0 +1,10 @@
+Name, Age, Grade
+John, 20, A
+Alice, 19, B
+Mark, 21, A
+Sophie,23,C
+
+emma,20,B
+liam,23,A
+emma,20,B
+liam,23,A
