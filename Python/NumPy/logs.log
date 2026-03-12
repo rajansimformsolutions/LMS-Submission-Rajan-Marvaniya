@@ -1,0 +1,107 @@
+2026-03-12 13:59:17,647 | INFO | Numpy_assignment.py:28) | Start the pipeline
+2026-03-12 13:59:47,192 | INFO | Numpy_assignment.py:28) | Start the pipeline
+2026-03-12 13:59:47,217 | INFO | Numpy_assignment.py:36) | the number of recoards in the file are:100 and the schema details are as follow : Employee_ID       int64
+Name                str
+Age             float64
+Department          str
+Salary          float64
+Joining_Date        str
+Resigned           bool
+dtype: object
+2026-03-12 13:59:47,217 | INFO | Numpy_assignment.py:41) | data cleaning started
+2026-03-12 13:59:47,220 | INFO | Numpy_assignment.py:45) | missing values per column:
+Employee_ID      0
+Name             0
+Age             16
+Department       0
+Salary           8
+Joining_Date     0
+Resigned         0
+dtype: int64
+2026-03-12 14:00:12,473 | INFO | Numpy_assignment.py:28) | Start the pipeline
+2026-03-12 14:00:12,478 | INFO | Numpy_assignment.py:36) | the number of recoards in the file are:100 and the schema details are as follow : Employee_ID       int64
+Name                str
+Age             float64
+Department          str
+Salary          float64
+Joining_Date        str
+Resigned           bool
+dtype: object
+2026-03-12 14:00:12,478 | INFO | Numpy_assignment.py:41) | data cleaning started
+2026-03-12 14:00:12,480 | INFO | Numpy_assignment.py:45) | missing values per column:
+Employee_ID      0
+Name             0
+Age             16
+Department       0
+Salary           8
+Joining_Date     0
+Resigned         0
+dtype: int64
+2026-03-12 14:00:19,971 | INFO | Numpy_assignment.py:28) | Start the pipeline
+2026-03-12 14:00:19,976 | INFO | Numpy_assignment.py:36) | the number of recoards in the file are:100 and the schema details are as follow : Employee_ID       int64
+Name                str
+Age             float64
+Department          str
+Salary          float64
+Joining_Date        str
+Resigned           bool
+dtype: object
+2026-03-12 14:00:19,976 | INFO | Numpy_assignment.py:41) | data cleaning started
+2026-03-12 14:00:19,977 | INFO | Numpy_assignment.py:45) | missing values per column:
+Employee_ID      0
+Name             0
+Age             16
+Department       0
+Salary           8
+Joining_Date     0
+Resigned         0
+dtype: int64
+2026-03-12 14:00:19,980 | INFO | Numpy_assignment.py:51) | missing age values filled with mean: 59643.92391304348
+2026-03-12 14:00:19,982 | INFO | Numpy_assignment.py:61) | Columns standardized: ['employee_id', 'name', 'age', 'department', 'salary', 'joining_date', 'resigned']
+2026-03-12 14:00:19,983 | INFO | Numpy_assignment.py:65) | data cleaning completed
+2026-03-12 14:00:19,984 | INFO | Numpy_assignment.py:73) | data manipulation started
+2026-03-12 14:00:19,988 | INFO | Numpy_assignment.py:80) | Records before filtering: 100, after filtering: 48
+2026-03-12 14:05:00,108 | INFO | Numpy_assignment.py:31 | Pipeline started
+2026-03-12 14:05:00,115 | INFO | Numpy_assignment.py:38 | Loaded 100 records with columns: {'Employee_ID': dtype('int64'), 'Name': <StringDtype(storage='python', na_value=nan)>, 'Age': dtype('float64'), 'Department': <StringDtype(storage='python', na_value=nan)>, 'Salary': dtype('float64'), 'Joining_Date': dtype('<M8[us]'), 'Resigned': dtype('bool')}
+2026-03-12 14:05:00,116 | INFO | Numpy_assignment.py:47 | Data cleaning started
+2026-03-12 14:05:00,117 | INFO | Numpy_assignment.py:51 | Standardized columns: ['employee_id', 'name', 'age', 'department', 'salary', 'joining_date', 'resigned']
+2026-03-12 14:05:00,119 | INFO | Numpy_assignment.py:57 | Filled missing salaries with mean: 59643.92
+2026-03-12 14:05:00,121 | INFO | Numpy_assignment.py:63 | Filled missing ages with median: 46
+2026-03-12 14:05:00,122 | INFO | Numpy_assignment.py:74 | Data cleaning completed
+2026-03-12 14:05:00,122 | INFO | Numpy_assignment.py:83 | Data manipulation started
+2026-03-12 14:05:00,124 | INFO | Numpy_assignment.py:89 | Records before filtering: 100, after filtering: 48
+2026-03-12 14:05:00,127 | INFO | Numpy_assignment.py:96 | Data manipulation completed
+2026-03-12 14:05:00,127 | INFO | Numpy_assignment.py:105 | Aggregation & analysis started
+2026-03-12 14:05:00,146 | INFO | Numpy_assignment.py:112 | Department-level stats:
+  department    avg_salary  median_age
+0    Finance  57459.181818        37.0
+1         HR  60721.400000        42.0
+2         IT  59125.545455        41.0
+3  Marketing  62049.000000        52.0
+2026-03-12 14:05:00,149 | INFO | Numpy_assignment.py:117 | Applied 10% salary increment to department: Sales
+2026-03-12 14:05:00,150 | INFO | Numpy_assignment.py:119 | Aggregation & analysis completed
+2026-03-12 14:05:00,150 | INFO | Numpy_assignment.py:128 | Data transformation & export started
+2026-03-12 14:05:00,153 | INFO | Numpy_assignment.py:136 | Exported cleaned dataset to cleaned_employees.json with 48 records
+2026-03-12 14:05:00,153 | INFO | Numpy_assignment.py:137 | Data transformation & export completed
+2026-03-12 14:11:58,474 | INFO | Numpy_assignment.py:30 | Pipeline started
+2026-03-12 14:11:58,480 | INFO | Numpy_assignment.py:40 | Loaded 100 records with columns: {'Employee_ID': dtype('int64'), 'Name': <StringDtype(storage='python', na_value=nan)>, 'Age': dtype('float64'), 'Department': <StringDtype(storage='python', na_value=nan)>, 'Salary': dtype('float64'), 'Joining_Date': dtype('<M8[us]'), 'Resigned': dtype('bool')}
+2026-03-12 14:11:58,481 | INFO | Numpy_assignment.py:53 | Data cleaning started
+2026-03-12 14:11:58,482 | INFO | Numpy_assignment.py:57 | Standardized columns: ['employee_id', 'name', 'age', 'department', 'salary', 'joining_date', 'resigned']
+2026-03-12 14:11:58,483 | INFO | Numpy_assignment.py:63 | Filled missing salaries with mean: 59643.92
+2026-03-12 14:11:58,484 | INFO | Numpy_assignment.py:69 | Filled missing ages with median: 46
+2026-03-12 14:11:58,485 | INFO | Numpy_assignment.py:80 | Data cleaning completed
+2026-03-12 14:11:58,485 | INFO | Numpy_assignment.py:93 | Data manipulation started
+2026-03-12 14:11:58,486 | INFO | Numpy_assignment.py:99 | Records before filtering: 100, after filtering: 48
+2026-03-12 14:11:58,488 | INFO | Numpy_assignment.py:106 | Data manipulation completed
+2026-03-12 14:11:58,488 | INFO | Numpy_assignment.py:119 | Aggregation & analysis started
+2026-03-12 14:11:58,504 | INFO | Numpy_assignment.py:126 | Department-level stats:
+  department    avg_salary  median_age
+0    Finance  57459.181818        37.0
+1         HR  60721.400000        42.0
+2         IT  59125.545455        41.0
+3  Marketing  62049.000000        52.0
+2026-03-12 14:11:58,505 | INFO | Numpy_assignment.py:131 | Applied 10% salary increment to department: Sales
+2026-03-12 14:11:58,505 | INFO | Numpy_assignment.py:133 | Aggregation & analysis completed
+2026-03-12 14:11:58,506 | INFO | Numpy_assignment.py:141 | Data transformation & export started
+2026-03-12 14:11:58,508 | INFO | Numpy_assignment.py:149 | Exported cleaned dataset to cleaned_employees.json with 48 records
+2026-03-12 14:11:58,508 | INFO | Numpy_assignment.py:150 | Data transformation & export completed
