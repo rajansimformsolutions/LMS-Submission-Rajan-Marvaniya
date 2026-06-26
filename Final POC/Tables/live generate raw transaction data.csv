@@ -1,0 +1,3 @@
+TransactionID,CustomerID,AccountID,Date,TransactionType,Amount,Channel,EventProcessedUtcTime,PartitionId,EventEnqueuedUtcTime
+982604,706,604,2026-06-26 03:49:08,Transfer,17181.88,ATM,2026-06-26T03:49:21.602Z,3,2026-06-26T03:49:21.514Z
+560721,149,754,2026-06-26 03:50:03,Withdrawal,39130.56,Branch,2026-06-26T03:50:16.429Z,3,2026-06-26T03:50:16.264Z
